@@ -1,5 +1,7 @@
 # Hi, I'm Maksim Masalski (@maxxlife) 👋
 
+## 🚀 My [website](https://www.maksimmasalski.com/home) showcasing my professional achievements
+
 **Embedded Systems, Zephyr RTOS, Physical AI & Robotics Architect**  
 _Former Zephyr RTOS Engineer at **Intel** ([@maksimmasalski](https://github.com/maksimmasalski)) · **Top 5% Nordic Semiconductor Contributor** on [Hackster.io](https://www.hackster.io/maxxlife) · Active open-source hardware performance hunter ([@maxxlife](https://github.com/maxxlife))._
 
@@ -29,12 +31,12 @@ _Former Zephyr RTOS Engineer at **Intel** ([@maksimmasalski](https://github.com/
 
 | Featured Project | Platform & Stack | Highlights |
 |---|---|---|
-| **[nRF54L20B Axon NPU Benchmark on Zephyr](https://www.hackster.io/maxxlife)** | Nordic nRF54L, Axon NPU, Zephyr RTOS | Bypassing TFLM to compile bare-metal NPU workloads and benchmark silicon limits on Zephyr. |
-| **[Build a SoftSIM Architecture Prototype on nRF9151](https://www.hackster.io/maxxlife)** | Nordic nRF9151, Zephyr RTOS Shell | Compact SoftSIM transport and provisioning prototype built on Zephyr RTOS. |
-| **[Cellular HTTP Server LED Control with Protobuf](https://www.hackster.io/maxxlife)** | nRF9151, Zephyr RTOS, LTE-M, Protobuf, Onomondo | Turning the nRF9151 into a cellular HTTP server with compact Protobuf payloads (18.3k+ views). |
-| **[Commercial-Grade Cellular IoT on nRF9151](https://www.hackster.io/maxxlife)** | nRF9151, Zephyr RTOS, Onomondo / Conexa SIM | Enterprise cellular connectivity series on Zephyr RTOS (34.6k+ combined views). |
-| **[Taming the micro:bit v2 Audio with Zephyr RTOS](https://www.hackster.io/maxxlife)** | BBC micro:bit v2 (nRF52833), Zephyr ADC | Custom low-level ADC sampling and real-time audio visualization on Zephyr RTOS. |
-| **[CodeWheels & LEGO® Super Mario™ Robotics](https://www.hackster.io/maxxlife)** | Autonomous Mobile Robots, BLE, Embedded Control | Self-driving robot racing platform (*CodeWheels*) and interactive robotic vehicles. |
+| **[nRF54LM20B Axon NPU Benchmark on Zephyr](https://www.hackster.io/maxxlife/nrf54lm20-axon-npu-benchmark-on-zephyr-9c1998)** | Nordic nRF54L, Axon NPU, Zephyr RTOS | Bypassing TFLM to compile bare-metal NPU workloads and benchmark silicon limits on Zephyr. |
+| **[Build a SoftSIM Architecture Prototype on nRF9151](https://www.hackster.io/maxxlife/build-a-softsim-architecture-prototype-on-nrf9151-and-zephyr-af674e)** | Nordic nRF9151, Zephyr RTOS Shell | Compact SoftSIM transport and provisioning prototype built on Zephyr RTOS. |
+| **[Cellular HTTP Server LED Control with Protobuf](https://www.hackster.io/maxxlife/cellular-http-server-led-control-with-zephyr-and-onomondo-835462)** | nRF9151, Zephyr RTOS, LTE-M, Protobuf, Onomondo | Turning the nRF9151 into a cellular HTTP server with compact Protobuf payloads (18.3k+ views). |
+| **[Commercial-Grade Cellular IoT on nRF9151](https://www.hackster.io/maxxlife/iot-blink-with-nrf9151-zephyr-and-onomondo-sim-3368ac)** | nRF9151, Zephyr RTOS, Onomondo / Conexa SIM | Enterprise cellular connectivity series on Zephyr RTOS (34.6k+ combined views). |
+| **[Taming the micro:bit v2 Audio with Zephyr RTOS]([https://www.hackster.io/maxxlife](https://www.hackster.io/maxxlife/taming-the-micro-bit-v2-audio-with-zephyr-rtos-f142b7))** | BBC micro:bit v2 (nRF52833), Zephyr ADC | Custom low-level ADC sampling and real-time audio visualization on Zephyr RTOS. |
+| **[CodeWheels & LEGO® Super Mario™ Robotics](https://www.hackster.io/maxxlife/interactive-remote-controlled-car-with-lego-super-mario-bf8e15)** | Autonomous Mobile Robots, BLE, Embedded Control | Self-driving robot racing platform (*CodeWheels*) and interactive robotic vehicles. |
 
 ---
 
