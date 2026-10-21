@@ -16,7 +16,7 @@ _Former Zephyr RTOS Engineer at **Intel** ([@maksimmasalski](https://github.com/
 ## 🚀 Highlighted Open-Source Optimizations & PRs
 
 ### 1. [ARM-software/CMSIS-NN](https://github.com/ARM-software/CMSIS-NN) — `1.385×–1.408×` INT4 (`s4`) Speedup on Cortex-M33
-- **Upstream PR:** [ARM-software/CMSIS-NN#678 — Optimize `read_and_pad_s4` unpacking on DSP targets](https://github.com/ARM-software/CMSIS-NN/pull/678)
+- **Upstream PR (Merged):** [ARM-software/CMSIS-NN#250 — Optimize `read_and_pad_s4` unpacking on DSP targets](https://github.com/ARM-software/CMSIS-NN/pull/250) · **Merged Commit:** [`7b515b9`](https://github.com/ARM-software/CMSIS-NN/commit/7b515b9ded985bc429173525ac24cc757a961c7f)
 - **Benchmark & Reproducer Repo:** [maxxlife/cmsis-nn-s4-cortex-m33-benchmark](https://github.com/maxxlife/cmsis-nn-s4-cortex-m33-benchmark)
 - **Technical Summary:**
   - Identified that `arm_nn_read_s8x2()` copied 2 bytes into an uninitialized 32-bit `int32_t`, causing GCC 14 (`-Ofast`) to emit `BFI` instructions that locked callee-saved registers across loop iterations and forced stack spills in `arm_nn_vec_mat_mult_t_s4()`.
@@ -35,7 +35,7 @@ _Former Zephyr RTOS Engineer at **Intel** ([@maksimmasalski](https://github.com/
 | **[Build a SoftSIM Architecture Prototype on nRF9151](https://www.hackster.io/maxxlife/build-a-softsim-architecture-prototype-on-nrf9151-and-zephyr-af674e)** | Nordic nRF9151, Zephyr RTOS Shell | Compact SoftSIM transport and provisioning prototype built on Zephyr RTOS. |
 | **[Cellular HTTP Server LED Control with Protobuf](https://www.hackster.io/maxxlife/cellular-http-server-led-control-with-zephyr-and-onomondo-835462)** | nRF9151, Zephyr RTOS, LTE-M, Protobuf, Onomondo | Turning the nRF9151 into a cellular HTTP server with compact Protobuf payloads (18.3k+ views). |
 | **[Commercial-Grade Cellular IoT on nRF9151](https://www.hackster.io/maxxlife/iot-blink-with-nrf9151-zephyr-and-onomondo-sim-3368ac)** | nRF9151, Zephyr RTOS, Onomondo / Conexa SIM | Enterprise cellular connectivity series on Zephyr RTOS (34.6k+ combined views). |
-| **[Taming the micro:bit v2 Audio with Zephyr RTOS]([https://www.hackster.io/maxxlife](https://www.hackster.io/maxxlife/taming-the-micro-bit-v2-audio-with-zephyr-rtos-f142b7))** | BBC micro:bit v2 (nRF52833), Zephyr ADC | Custom low-level ADC sampling and real-time audio visualization on Zephyr RTOS. |
+| **[Taming the micro:bit v2 Audio with Zephyr RTOS](https://www.hackster.io/maxxlife/taming-the-micro-bit-v2-audio-with-zephyr-rtos-f142b7)** | BBC micro:bit v2 (nRF52833), Zephyr ADC | Custom low-level ADC sampling and real-time audio visualization on Zephyr RTOS. |
 | **[CodeWheels & LEGO® Super Mario™ Robotics](https://www.hackster.io/maxxlife/interactive-remote-controlled-car-with-lego-super-mario-bf8e15)** | Autonomous Mobile Robots, BLE, Embedded Control | Self-driving robot racing platform (*CodeWheels*) and interactive robotic vehicles. |
 
 ---
